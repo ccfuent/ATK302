@@ -152,7 +152,7 @@ function draw() {
         text('Introducing Oceansweep! She has the power to spit a special substance that attacks & disinegrates \
         garbage that falls into the ocean. She keeps all marine life safe with her special ability. \
         Garbage stands no match against Oceansweep!', 20, 10, 690, 500);
-    
+
 
 
   }

@@ -4,7 +4,7 @@ function setup() {
   // put setup code here
   createCanvas( 800, 800);
 
-  cuteCat = loadImage("assets/cutecat.jpg");
+  cuteCat = loadImage("assets/fish.png");
 }
 
 function draw() {
