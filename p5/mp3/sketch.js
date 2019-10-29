@@ -32,7 +32,7 @@ function setup() {
   loseScreen = loadImage("assets/loseScreen-03.png");
 
   //spawn cans for loop!
-  for (var i = 0; i < 9; i++) {
+  for (var i = 0; i < 7; i++) {
     cans.push(new Can());
   }
 
@@ -90,7 +90,7 @@ function draw() {
     case 1: // the game state
       game();
       timer++;
-      if (timer > 800) {
+      if (timer > 650) {
         myState = 3;
         timer = 0;
       }
@@ -249,11 +249,13 @@ function game() {
 function resetTheGame() {
   cans = []; //reset the cans
   //spawn cans!
-  for (var i = 0; i < 40; i++) {
+  for (var i = 0; i < 8; i++) {
     cans.push(new Can());
   }
   timer = 0;
-
+  y = -55;
+  yy = -350;
+  yyy = -350;
 }
 
 
