@@ -12,7 +12,7 @@ function setup() {
   // HERE Is the call to get the weather. PLEASE PUT YOUR OWN ID IN HERE!!!
   // MINE WILL STOP WORKING IF EVERYONE USES IT!!!
 
-  var myJSONString = 'https://api.openweathermap.org/data/2.5/weather?zip=61701,us&units=imperial&';
+  var myJSONString = 'https://api.openweathermap.org/data/2.5/weather?zip=61761,us&units=imperial&';
   var myIDString = 'appid=53a4b0c649f3057336a22dc457823b23'; // Take out the x’s and ADD YOUR ID!!!
   loadJSON(myJSONString + myIDString, gotData); // look - that gotData function happens when JSON comes back.
 
